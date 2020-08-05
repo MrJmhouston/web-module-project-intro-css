@@ -1,4 +1,4 @@
-/* CSS Reset */
+/* start css reset */
 body {
     
     max-width: 900px;
@@ -8,9 +8,31 @@ body {
     font-size:100%; 
     line-height:1;
 }
+/* end css reset*/
 
+/* start font import */
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
 
+/* end font import */
+
+/* start header and footer box */
+.header-box {
+    padding: 20px;
+    box-sizing: border-box;
+    background: #F9E7DC;
+    border-radius: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+/* end header and footer box */
+
+/* start header box */
+.park-guide {
+    font-family: "Chelsea Market", cursive;
+}
+/* end header box */
+
+/* start nav styles */
 .footer-nav-bar a:hover,
 .nav-menu a:hover{
     color: white;
@@ -27,19 +49,22 @@ body {
 #involved {
     background: #FFCD69;
 }
+/* end nav styles */
 
-.park-guide {
-    font-family: "Chelsea Market", cursive;
-}
-
+/* start main text styles */
 .main-text-body {
-    background: #DDB9A3
+    background: #DDB9A3;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
+/* end main text styles */
 
-.footer-section {
-    background: #F9E7DC;
-}
-
+/* start image styles */
 .img-class {
     display: block;
     margin-left: auto;
@@ -63,14 +88,14 @@ body {
     margin-left: 60%;
 }
 
+#footer-img {
+    padding: 30px;
+}
+/* end image styles */
 
-.header-box {
-    padding: 20px;
-    box-sizing: border-box;
+/* start footer styles */
+.footer-section {
     background: #F9E7DC;
-    border-radius: 2rem;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    display: flex;
 }
 
 .footer-section {
@@ -81,11 +106,7 @@ body {
     display: inline-block;
 }
 
-#footer-img {
-    padding: 30px;
-}
-
 .footer-nav {
     padding: 10px;
 }
-
+/* end footer styles */

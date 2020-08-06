@@ -1,0 +1,131 @@
+/* start css reset */
+body {
+    
+    max-width: 900px;
+    margin:0 auto;
+    padding: 5rem;
+    font-family: "Roboto Mono", monospace;
+    font-size:100%; 
+    line-height:1;
+}
+/* end css reset*/
+
+/* start font import */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+/* end font import */
+
+/* start header and footer box */
+.header-box {
+    padding: 20px;
+    box-sizing: border-box;
+    background: #F9E7DC;
+    border-radius: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+/* end header and footer box */
+
+/* start header box */
+.park-guide h3 h4 h5 {
+    font-family: "Chelsea Market", cursive;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.img-container {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: row;
+}
+/* end header box */
+
+/* start nav styles */
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.footer-nav-bar a:hover,
+.nav-menu a:hover{
+    color: white;
+}
+
+#visit {
+    background: #FF764E;
+}
+
+#about {
+    background: #5ED3EB;
+}
+
+#involved {
+    background: #FFCD69;
+}
+/* end nav styles */
+
+/* start main text styles */
+.main-text-body {
+    background: #DDB9A3;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* end main text styles */
+
+/* start image styles */
+.img-class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 20%;
+}
+
+.info-img-class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#fire-img {
+    margin-right: 60%;
+}
+
+#rv-img {
+    margin-left: 60%;
+}
+
+#footer-img {
+    padding: 30px;
+}
+/* end image styles */
+
+/* start footer styles */
+.footer-section {
+    background: #F9E7DC;
+}
+
+.footer-section {
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.footer-nav {
+    padding: 10px;
+}
+/* end footer styles */
